@@ -28,16 +28,13 @@ Grundsätzlich wurde die Aufgabe nach der [Angabe von der S09-GK9a1](https://ele
 
 ### GUI
 
-Die GUI wurde anders als in der [Angabe von der S09-GK9a1](https://elearning.tgm.ac.at/mod/assign/view.php?id=77461) mittels JavaFX gemacht und nicht nur mittels JOptionPane. Dies ist einfacher, übersichtlicher und grunsätzlich praktischer.
+Die GUI wurde genau wie in der [Angabe von der S09-GK9a1](https://elearning.tgm.ac.at/mod/assign/view.php?id=77461) mittels JOptionPane gemacht. Die alternative wäre JavaFX, was für GUI gut funktioniert.
 
-### Persistenz 
-
-Eine Worttrainer-Session (bestehend aus den zur Verfügung stehenden  Wort-Bild-Paaren, dem aktuell ausgewählten Paar (falls vorhanden) sowie  der aktuellen Statistik) soll auch gespeichert werden können. Dies habe ich gemacht in dem ich [TODO].
+Eine Worttrainer-Session (bestehend aus den zur Verfügung stehenden  Wort-Bild-Paaren, dem aktuell ausgewählten Paar (falls vorhanden) sowie  der aktuellen Statistik) soll auch gespeichert werden können. Dies habe ich gemacht in dem ich die required Dateien in einem JSON Dateiformat abgespeichert habe.
 
 ## Installation
 
 1. Laden Sie das Projekt von GitHub herunter oder klonen Sie es auf Ihren lokalen Computer.
 2. Stellen Sie sicher, dass Sie JDK 11 oder höher installiert haben.
 3. Stellen Sie sicher, dass Sie Gradle 6.8.3 oder höher installiert haben.
-4. Stellen Sie sicher, dass Sie eine SQL-Datenbank installiert haben und konfigurieren Sie die Verbindung in `DatabaseHandler`.
-5. Führen Sie `gradle run` aus, um die Anwendung auszuführen.
+4. Führen Sie `gradle run` aus, um die Anwendung auszuführen.
